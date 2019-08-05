@@ -4,36 +4,46 @@ using UnityEngine;
 
 public class Movimiento : MonoBehaviour
 {
-    float velocidad = 5f;
+
+    private Transform myTransform;
+    private Rigidbody cubeRigidBody;
+    public float Velocidad;
+    public float jumpHight = 100;
 
     // Start is called before the first frame update
     void Start()
     {
-   
+        myTransform = GetComponent<Transform>();
+        cubeRigidBody = GetComponent<Rigidbody>();
 
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKey(KeyCode.LeftArrow)||Input.GetKey("a")) 
+        if (Input.GetKey(KeyCode.W))
         {
-            transform.position += Vector3.left * velocidad * Time.deltaTime; 
+            myTransform.Translate(new Vector3(0, 0, Velocidad) * Time.deltaTime);
+
         }
 
-        if (Input.GetKey(KeyCode.RightArrow))
+        if (Input.GetKey(KeyCode.S))
         {
-            transform.position += Vector3.right * velocidad * Time.deltaTime;
+            myTransform.Translate(new Vector3(0, 0, -Velocidad) * Time.deltaTime);
+
         }
 
-        if (Input.GetKey(KeyCode.UpArrow))
+        if (Input.GetKey(KeyCode.A))
         {
-            transform.position += Vector3.up * velocidad * Time.deltaTime;
+            myTransform.Translate(new Vector3(-Velocidad, 0, 0) * Time.deltaTime);
+
         }
 
-        if (Input.GetKey(KeyCode.DownArrow))
+        if (Input.GetKey(KeyCode.D))
         {
-            transform.position += Vector3.down * velocidad * Time.deltaTime;
+            myTransform.Translate(new Vector3(Velocidad, 0, 0) * Time.deltaTime);
+
         }
+
     }
 }
