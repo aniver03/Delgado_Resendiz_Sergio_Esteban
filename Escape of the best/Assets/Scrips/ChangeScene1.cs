@@ -8,7 +8,7 @@ public class ChangeScene1 : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        //add the  u chose here 
+        //Codigo utilizado para cambiar de una escena a otra. 
         if (other.gameObject.tag == "Player")
         {
             SceneManager.LoadScene("Nivel2");
