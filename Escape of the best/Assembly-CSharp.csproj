@@ -62,6 +62,10 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scrips\ChangeFinal.cs" />
+    <Compile Include="Assets\Scrips\Changeregreso1.cs" />
+    <Compile Include="Assets\Scrips\Changeregreso2.cs" />
+    <Compile Include="Assets\Scrips\ChangeScena2.cs" />
     <Compile Include="Assets\Scrips\ChangeScene1.cs" />
     <Compile Include="Assets\Scrips\Menuprincipal.cs" />
     <Compile Include="Assets\Scrips\Movimiento.cs" />
