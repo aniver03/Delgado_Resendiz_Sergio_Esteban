@@ -7,7 +7,7 @@ public class Changeregreso2 : MonoBehaviour
 {
     void OnTriggerEnter(Collider other)
     {
-        //Codigo utilizado para cambiar de una escena a otra. 
+        //Codigo utilizado para que el jugador sea regresado hasta el nivel 1.
         if (other.gameObject.tag == "Player")
         {
             SceneManager.LoadScene("Nivel1");
