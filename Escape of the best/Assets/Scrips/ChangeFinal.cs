@@ -8,7 +8,7 @@ public class ChangeFinal : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        //Codigo utilizado para al tocar la puerta correcta el jugador gane automaticamente el juego.
+        //Codigo utilizado para al tocar la puerta, o registrar el triger entre mi objeto con el tag player y la puerta, el jugador gane automaticamente el juego.
         if (other.gameObject.tag == "Player")
         {
             SceneManager.LoadScene("Final");

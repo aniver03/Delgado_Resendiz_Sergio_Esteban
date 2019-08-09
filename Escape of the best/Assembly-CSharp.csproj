@@ -68,6 +68,7 @@
     <Compile Include="Assets\Scrips\ChangeScena2.cs" />
     <Compile Include="Assets\Scrips\ChangeScene1.cs" />
     <Compile Include="Assets\Scrips\Menuprincipal.cs" />
+    <Compile Include="Assets\Scrips\MenuRe.cs" />
     <Compile Include="Assets\Scrips\Movimiento.cs" />
     <Compile Include="Assets\Scrips\Reinicio.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />

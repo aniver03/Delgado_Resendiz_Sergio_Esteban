@@ -8,11 +8,13 @@ public class Menuprincipal : MonoBehaviour
 
     public void PlayGame()
     {
+        //Al precionar el boton me dirigira hacia la escena siguiente que es la numero 1, ya que el menu es el 0.
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 1);
     }
 
     public void QuitGame()
     {
+        //Al precionar el boton quitara automaticamente el juego.
         Debug.Log("QUIT!");
         Application.Quit();
     }

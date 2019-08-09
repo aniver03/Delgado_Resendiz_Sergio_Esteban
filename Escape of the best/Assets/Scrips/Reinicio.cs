@@ -8,7 +8,7 @@ public class Reinicio : MonoBehaviour
 
     void OnTriggerEnter(Collider other)
     {
-        //Codigo utilizado para que al registrarse el choque entre el player y el objeto, automaticamente me reinicie el nivel 3. 
+        //Codigo utilizado para que al registrarse el choque (el triger) entre el player y el objeto, automaticamente me reinicie el nivel 3. 
         if (other.gameObject.tag == "Player")
         {
             SceneManager.LoadScene("Nivel3");
