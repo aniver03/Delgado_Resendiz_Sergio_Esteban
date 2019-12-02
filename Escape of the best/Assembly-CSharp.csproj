@@ -62,15 +62,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scrips\ChangeFinal.cs" />
-    <Compile Include="Assets\Scrips\Changeregreso1.cs" />
-    <Compile Include="Assets\Scrips\Changeregreso2.cs" />
-    <Compile Include="Assets\Scrips\ChangeScena2.cs" />
     <Compile Include="Assets\Scrips\ChangeScene1.cs" />
     <Compile Include="Assets\Scrips\Menuprincipal.cs" />
-    <Compile Include="Assets\Scrips\MenuRe.cs" />
     <Compile Include="Assets\Scrips\Movimiento.cs" />
-    <Compile Include="Assets\Scrips\Reinicio.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark01_UGUI.cs" />
     <Compile Include="Assets\TextMesh Pro\Examples &amp; Extras\Scripts\Benchmark02.cs" />
@@ -145,6 +139,12 @@
     </Reference>
     <Reference Include="Unity.Analytics.DataPrivacy">
       <HintPath>C:/Users/Unitec/Desktop/Delgado_Resendiz_Sergio_Esteban/Escape of the best/Library/ScriptAssemblies/Unity.Analytics.DataPrivacy.dll</HintPath>
+    </Reference>
+    <Reference Include="Cinemachine">
+      <HintPath>C:/Users/Unitec/Desktop/Delgado_Resendiz_Sergio_Esteban/Escape of the best/Library/ScriptAssemblies/Cinemachine.dll</HintPath>
+    </Reference>
+    <Reference Include="com.unity.cinemachine.editor">
+      <HintPath>C:/Users/Unitec/Desktop/Delgado_Resendiz_Sergio_Esteban/Escape of the best/Library/ScriptAssemblies/com.unity.cinemachine.editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Hub/Editor/2019.1.2f1/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

@@ -19,4 +19,10 @@ public class Menuprincipal : MonoBehaviour
         Application.Quit();
     }
 
+    public void PlayGame2()
+    {
+        //Este codigo hace que al precionar el boton, me cargue el nivel que este a -4 de la escena Final.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+    }
+
 }
