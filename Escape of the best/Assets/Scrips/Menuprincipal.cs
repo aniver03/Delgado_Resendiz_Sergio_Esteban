@@ -22,7 +22,12 @@ public class Menuprincipal : MonoBehaviour
     public void PlayGame2()
     {
         //Este codigo hace que al precionar el boton, me cargue el nivel que este a -4 de la escena Final.
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 5);
+    }
+    public void PlayGame3()
+    {
+        //Al precionar el boton me dirigira hacia la escena que lleve por nombre Nivel4.
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 4);
     }
 
 }
