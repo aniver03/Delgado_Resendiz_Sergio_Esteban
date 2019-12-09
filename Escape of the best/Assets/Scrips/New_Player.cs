@@ -23,7 +23,11 @@ public class New_Player : MonoBehaviour
         x = Input.GetAxis("Horizontal");
         y = Input.GetAxis("Vertical");
 
+        transform.Rotate(0, x * Time.deltaTime * Rotacion, 0);
+        transform.Translate(0, 0, y * Time.deltaTime * Velocidad);
 
+        anim.SetFloat("VelX", x);
+        anim.SetFloat("VelY", y);
 
     }
 }
