@@ -28,6 +28,10 @@ public class ChangeScene1 : MonoBehaviour
         {
             SceneManager.LoadScene("Final");
         }
-        
+        //Si al colicionar mi player con un objeto que tenga el Tag Puerta3 entonces me cargara el la escena que lleve por nombre Final. 
+        else if (other.gameObject.tag == "Puerta4")
+        {
+            SceneManager.LoadScene("Final");
+        }
     }
 }

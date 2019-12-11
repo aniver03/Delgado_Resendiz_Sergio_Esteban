@@ -26,6 +26,7 @@ public class New_Player : MonoBehaviour
         transform.Rotate(0, x * Time.deltaTime * Rotacion, 0);
         transform.Translate(0, 0, y * Time.deltaTime * Velocidad);
 
+        //SE manda llamar los parametros del animator controller.
         anim.SetFloat("VelX", x);
         anim.SetFloat("VelY", y);
 
